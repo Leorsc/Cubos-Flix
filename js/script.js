@@ -104,17 +104,17 @@ btnTheme.addEventListener('click', () => {
         root.style.setProperty('--background', '#1B2028');
         root.style.setProperty('--text-color', '#FFFFFF');
         root.style.setProperty('--bg-secondary', '#2D3440');
-        btnTheme.src = '../assets/dark-mode.svg';
+        btnTheme.src = './assets/dark-mode.svg';
         logo.src = './assets/logo.svg';
         btnArrowLeft.src = './assets/arrow-left-light.svg';
-        btnArrowRight.src = '../assets/arrow-right-light.svg';
+        btnArrowRight.src = './assets/arrow-right-light.svg';
         return;
     }
 
     root.style.setProperty('--background', '#FFFFFF');
     root.style.setProperty('--text-color', '#1b2028');
     root.style.setProperty('--bg-secondary', '#EDEDED');
-    btnTheme.src = '../assets/light-mode.svg';
+    btnTheme.src = './assets/light-mode.svg';
     logo.src = './assets/logo-dark.png';
     btnArrowLeft.src = './assets/arrow-left-dark.svg';
     btnArrowRight.src = './assets/arrow-right-dark.svg';
