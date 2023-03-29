@@ -86,7 +86,7 @@ function createMoviePoster(pagsListMovies) {
         movieTitle.textContent = movie.title;
         movieRating.textContent = movie.vote_average;
         movieRating.style.color = 'white';
-        starRating.src = '../assets/rating.svg';
+        starRating.src = './assets/rating.svg';
         starRating.style.color = 'var(--rating-color)';
 
         posterMovie.addEventListener('click', (event) => {
@@ -116,8 +116,8 @@ btnTheme.addEventListener('click', () => {
     root.style.setProperty('--bg-secondary', '#EDEDED');
     btnTheme.src = '../assets/light-mode.svg';
     logo.src = '../assets/logo-dark.png';
-    btnArrowLeft.src = '../assets/arrow-left-dark.svg';
-    btnArrowRight.src = '../assets/arrow-right-dark.svg';
+    btnArrowLeft.src = './assets/arrow-left-dark.svg';
+    btnArrowRight.src = './assets/arrow-right-dark.svg';
 })
 
 btnArrowRight.addEventListener('click', (event) => {
