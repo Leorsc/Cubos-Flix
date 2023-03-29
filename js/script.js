@@ -105,8 +105,8 @@ btnTheme.addEventListener('click', () => {
         root.style.setProperty('--text-color', '#FFFFFF');
         root.style.setProperty('--bg-secondary', '#2D3440');
         btnTheme.src = '../assets/dark-mode.svg';
-        logo.src = '../assets/logo.svg';
-        btnArrowLeft.src = '../assets/arrow-left-light.svg';
+        logo.src = './assets/logo.svg';
+        btnArrowLeft.src = './assets/arrow-left-light.svg';
         btnArrowRight.src = '../assets/arrow-right-light.svg';
         return;
     }
@@ -115,7 +115,7 @@ btnTheme.addEventListener('click', () => {
     root.style.setProperty('--text-color', '#1b2028');
     root.style.setProperty('--bg-secondary', '#EDEDED');
     btnTheme.src = '../assets/light-mode.svg';
-    logo.src = '../assets/logo-dark.png';
+    logo.src = './assets/logo-dark.png';
     btnArrowLeft.src = './assets/arrow-left-dark.svg';
     btnArrowRight.src = './assets/arrow-right-dark.svg';
 })
